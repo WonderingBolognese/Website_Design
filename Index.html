@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shan News</title>
+    <style>
+        body {
+            font-family: Times New Roman, Helvetica;
+            font-style: italic,regular;
+	    margin: 0;
+            padding: 0;
+        }
+        .navbar {
+	    font-family: Lucida Console;
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px 20px;
+        }
+        .navbar a {		
+            color: white;
+            text-decoration: none;
+            margin: 0 50px;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: gray;
+            min-width: 150px;
+            z-index: 1;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .news-card {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 10px;
+            width: 338px;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div>
+            <a href="#" >National</a>
+            <a href="#">International</a>
+            <a href="#">Tech</a>
+            <a href="#">Education</a>
+	    <a href="#">Development</a>
+	    <a href="#">Lifestyle</a>
+            <div class="dropdown">
+             <br> <br>  <a href="#">More</a>
+                <div class="dropdown-content">
+                    <a href="#">About</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">The Team</a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <img src="W:\Html\Logo.jpeg" width="75" alt="Shan Logo" style="height: 70px;">
+            <span style="color:white; font-size:15px; font-family:Courier"><B>by SHAN GUPTA</span></B>
+        </div>
+    </div>
+    <div class="news-card">
+        <img src="https://e3.365dm.com/24/04/1600x900/skynews-japam-japan-japanese-imperial-family_6507375.jpg?20240401154357" height="200" width="338" alt="News 1">
+        <p><b><span style="font-family:Helvetica">Japan's imperial family makes Instagram debut</p></b></span>
+	<br>Japan's imperial family has made its Instagram debut, in an effort to shake off their reclusive image and reach out to younger people on social media.
+	<br><br>
+        <a href="https://news.sky.com/story/japans-imperial-family-makes-instagram-debut-13106060"><span style="font-style:Italic">Read More</a></span>
+    </div>
+    <div class="news-card">
+        <img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_1280,q_70/lsci/db/PICTURES/CMS/375200/375217.6.jpg" height="200" width="338" alt="News 2">
+        <p><b><span style="font-family:Helvetica">Can slow starters Mumbai Indians kick into gear at batting paradise Wankhede?</p></b></span>
+	<br>Mumbai Indians tend to start IPL seasons slowly and build serious momentum heading into the business end. 
+	Rajasthan Royals tend to go the opposite way. Because of this, contests between these two teams, especially at the Wankhede Stadium, tend to assume season-defining significance. 
+	<br><br>
+        <a href="https://www.espncricinfo.com/series/indian-premier-league-2024-1410320/mumbai-indians-vs-rajasthan-royals-14th-match-1422132/match-preview"><span style="font-style:Italic">Read More</a></span>
+    </div>
+    <div class="news-card">
+        <img src="https://www.defensenews.com/resizer/9aLW5CN-Zk2kpFNy-RQKHfRU-wI=/1024x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/archetype/TZAFBQQANVECFHST776KCOKS5U.JPG" height="200" width="338" alt="News 3">
+        <p style><b><span style="font-family:Helvetica">India approves full development of fifth-generation fighter</p></b></span>
+	<br> India’s Cabinet Committee on Security has given a green light to continue development of the Advanced Medium Combat Aircraft, India’s indigenous fifth-generation fighter jet.
+        <br><br>
+	<a href="https://www.defensenews.com/air/2024/03/13/india-approves-full-development-of-fifth-generation-fighter/"><span style="font-style:Italic">Read More</a></span>
+    </div>
+    <div class="news-card">
+        <img src="https://s3-prod.autonews.com/s3fs-public/styles/width_792/public/Nissan_Frontier-MAIN_i.jpg" height="200" width="338" alt="News 4">
+        <p><b><span style="font-family:Helvetica">In U.S. first, Mitsubishi and Nissan team on EV, pickup, plug-in hybrid</p></b></span>
+	<br>In a first for the North America market, Nissan and Mitsubishi are partnering on region-specific products, including a next-gen pickup, EV and a plug-in hybrid.
+	<br><br>
+        <a href="https://www.autonews.com/cars-concepts/mitsubishi-nissan-partner-us-ev-pickup-and-phev"><span style="font-style:Italic">Read More</a></span>
+    </div>
+</body>
+</html>
